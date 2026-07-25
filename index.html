@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shanj Yoga - Find Balance. Breathe Deep. Live Fully. Premium wellness and yoga center in Ahmedabad, Gujarat.">
+    <meta name="keywords" content="Yoga, Wellness, Meditation, Fitness, Shanj Yoga, Ahmedabad">
+    <title>Shanj Yoga | Premium Wellness & Yoga</title>
+    
+    <!-- Open Graph for SEO -->
+    <meta property="og:title" content="Shanj Yoga">
+    <meta property="og:description" content="Transform your mind, body, and soul through authentic yoga practices.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=1200&auto=format&fit=crop">
+    <meta property="og:url" content="https://shanjyoga.com">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons (Vanilla JS version) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Header / Nav -->
+    <header class="header blur-header">
+        <div class="container nav-container">
+            <a href="#" class="logo">Shanj Yoga</a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#classes" class="nav-link">Classes</a></li>
+                    <li><a href="#schedule" class="nav-link">Schedule</a></li>
+                    <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                </ul>
+                <a href="#contact" class="btn btn-primary btn-ripple">Book Trial</a>
+            </nav>
+            <button class="mobile-toggle" aria-label="Toggle Menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Section 1: Hero -->
+        <section id="home" class="hero section">
+            <div class="hero-bg">
+                <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=1920&auto=format&fit=crop" alt="Yoga Background">
+                <div class="overlay"></div>
+            </div>
+            <div class="container hero-content fade-up">
+                <h1 class="hero-title">Find Balance.<br>Breathe Deep.<br>Live Fully.</h1>
+                <p class="hero-subtitle">Transform your mind, body, and soul through authentic yoga practices designed for every stage of your wellness journey.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary btn-ripple">Book Free Trial</a>
+                    <a href="#classes" class="btn btn-secondary">Explore Classes</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item glass-card">
+                        <span class="stat-number" data-target="500">0</span>+
+                        <span class="stat-label">Happy Students</span>
+                    </div>
+                    <div class="stat-item glass-card">
+                        <span class="stat-number" data-target="10">0</span>+
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item glass-card">
+                        <i data-lucide="sun"></i>
+                        <span class="stat-label">Daily Yoga Sessions</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: About -->
+        <section id="about" class="about section bg-soft">
+            <div class="container about-grid">
+                <div class="about-image fade-up">
+                    <img src="https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?q=80&w=800&auto=format&fit=crop" alt="About Shanj Yoga" class="rounded-img shadow-lg">
+                </div>
+                <div class="about-content fade-up" style="transition-delay: 0.2s">
+                    <h2 class="section-title">About Shanj Yoga</h2>
+                    <p class="text-body">At Shanj Yoga, we believe yoga is more than exercise—it's a journey toward inner peace, strength, and mindful living. Our experienced instructors guide students of all ages and skill levels through personalized practices that promote physical wellness, mental clarity, and emotional balance.</p>
+                    
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="icon-box"><i data-lucide="target"></i></div>
+                            <div>
+                                <h3>Mission</h3>
+                                <p>To empower individuals to discover their highest potential through yoga.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="icon-box"><i data-lucide="eye"></i></div>
+                            <div>
+                                <h3>Vision</h3>
+                                <p>A world where wellness is accessible and prioritized by everyone.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="icon-box"><i data-lucide="heart"></i></div>
+                            <div>
+                                <h3>Wellness Philosophy</h3>
+                                <p>Holistic health integrating mind, body, and spirit in harmony.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Classes -->
+        <section id="classes" class="classes section">
+            <div class="container">
+                <div class="section-header fade-up">
+                    <h2 class="section-title text-center">Our Classes</h2>
+                    <p class="section-subtitle text-center">Find the perfect practice for your body and mind.</p>
+                </div>
+                
+                <div class="classes-grid">
+                    <div class="class-card glass-card fade-up">
+                        <div class="class-icon"><i data-lucide="activity"></i></div>
+                        <h3 class="class-title">Hatha Yoga</h3>
+                        <p class="class-desc">A gentle introduction to basic yoga postures.</p>
+                        <div class="class-meta">
+                            <span><i data-lucide="clock"></i> 60 min</span>
+                            <span><i data-lucide="bar-chart"></i> Beginner</span>
+                        </div>
+                    </div>
+                    <div class="class-card glass-card fade-up" style="transition-delay: 0.1s">
+                        <div class="class-icon"><i data-lucide="wind"></i></div>
+                        <h3 class="class-title">Vinyasa Flow</h3>
+                        <p class="class-desc">Fluid transitions between poses synced with breath.</p>
+                        <div class="class-meta">
+                            <span><i data-lucide="clock"></i> 60 min</span>
+                            <span><i data-lucide="bar-chart"></i> Intermediate</span>
+                        </div>
+                    </div>
+                    <div class="class-card glass-card fade-up" style="transition-delay: 0.2s">
+                        <div class="class-icon"><i data-lucide="zap"></i></div>
+                        <h3 class="class-title">Power Yoga</h3>
+                        <p class="class-desc">A fitness-based, vigorous vinyasa-style practice.</p>
+                        <div class="class-meta">
+                            <span><i data-lucide="clock"></i> 75 min</span>
+                            <span><i data-lucide="bar-chart"></i> Advanced</span>
+                        </div>
+                    </div>
+                    <div class="class-card glass-card fade-up" style="transition-delay: 0.3s">
+                        <div class="class-icon"><i data-lucide="smile"></i></div>
+                        <h3 class="class-title">Meditation</h3>
+                        <p class="class-desc">Guided sessions to achieve mental clarity and peace.</p>
+                        <div class="class-meta">
+                            <span><i data-lucide="clock"></i> 45 min</span>
+                            <span><i data-lucide="bar-chart"></i> All Levels</span>
+                        </div>
+                    </div>
+                    <div class="class-card glass-card fade-up" style="transition-delay: 0.4s">
+                        <div class="class-icon"><i data-lucide="feather"></i></div>
+                        <h3 class="class-title">Pranayama</h3>
+                        <p class="class-desc">Breath control exercises to enhance energy flow.</p>
+                        <div class="class-meta">
+                            <span><i data-lucide="clock"></i> 45 min</span>
+                            <span><i data-lucide="bar-chart"></i> All Levels</span>
+                        </div>
+                    </div>
+                    <div class="class-card glass-card fade-up" style="transition-delay: 0.5s">
+                        <div class="class-icon"><i data-lucide="baby"></i></div>
+                        <h3 class="class-title">Kids Yoga</h3>
+                        <p class="class-desc">Fun and engaging poses to build strength and focus.</p>
+                        <div class="class-meta">
+                            <span><i data-lucide="clock"></i> 45 min</span>
+                            <span><i data-lucide="bar-chart"></i> Kids (5-12)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Why Choose Us -->
+        <section class="why-us section bg-dark text-white">
+            <div class="container">
+                <h2 class="section-title text-center fade-up">Why Choose Us</h2>
+                <div class="features-grid">
+                    <div class="feature-box fade-up">
+                        <div class="icon-wrapper"><i data-lucide="award"></i></div>
+                        <h4>Certified Yoga Trainers</h4>
+                        <p>Learn from globally recognized and experienced instructors.</p>
+                    </div>
+                    <div class="feature-box fade-up" style="transition-delay: 0.1s">
+                        <div class="icon-wrapper"><i data-lucide="user-check"></i></div>
+                        <h4>Personalized Sessions</h4>
+                        <p>Tailored practices to meet your specific wellness goals.</p>
+                    </div>
+                    <div class="feature-box fade-up" style="transition-delay: 0.2s">
+                        <div class="icon-wrapper"><i data-lucide="home"></i></div>
+                        <h4>Peaceful Environment</h4>
+                        <p>A tranquil studio designed to elevate your spirit.</p>
+                    </div>
+                    <div class="feature-box fade-up" style="transition-delay: 0.3s">
+                        <div class="icon-wrapper"><i data-lucide="calendar"></i></div>
+                        <h4>Flexible Timings</h4>
+                        <p>Morning, evening, and weekend batches to suit your schedule.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: Benefits -->
+        <section class="benefits section">
+            <div class="container">
+                <div class="section-header fade-up">
+                    <h2 class="section-title text-center">Benefits of Yoga</h2>
+                </div>
+                <div class="benefits-layout">
+                    <div class="benefit-img fade-up">
+                        <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=800&auto=format&fit=crop" alt="Yoga Benefits" class="rounded-img shadow-lg">
+                    </div>
+                    <div class="benefit-list">
+                        <ul class="check-list fade-up">
+                            <li><i data-lucide="check-circle-2"></i> Better Flexibility</li>
+                            <li><i data-lucide="check-circle-2"></i> Improved Posture</li>
+                            <li><i data-lucide="check-circle-2"></i> Stress Relief</li>
+                            <li><i data-lucide="check-circle-2"></i> Better Sleep</li>
+                            <li><i data-lucide="check-circle-2"></i> Weight Management</li>
+                            <li><i data-lucide="check-circle-2"></i> Increased Energy</li>
+                            <li><i data-lucide="check-circle-2"></i> Mental Clarity</li>
+                            <li><i data-lucide="check-circle-2"></i> Strong Immunity</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 6: Schedule -->
+        <section id="schedule" class="schedule section bg-soft">
+            <div class="container">
+                <h2 class="section-title text-center fade-up">Weekly Class Schedule</h2>
+                <div class="schedule-table-wrap fade-up">
+                    <table class="schedule-table">
+                        <thead>
+                            <tr>
+                                <th>Time</th>
+                                <th>Mon - Fri</th>
+                                <th>Saturday</th>
+                                <th>Sunday</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>6:00 AM</td>
+                                <td>Vinyasa Flow</td>
+                                <td rowspan="2">Special Meditation Workshop<br>(6:00 AM - 8:00 AM)</td>
+                                <td rowspan="4">Community Yoga Session<br>(7:00 AM - 9:00 AM)</td>
+                            </tr>
+                            <tr>
+                                <td>7:00 AM</td>
+                                <td>Hatha Yoga</td>
+                            </tr>
+                            <tr>
+                                <td>6:00 PM</td>
+                                <td>Power Yoga</td>
+                                <td>Closed</td>
+                            </tr>
+                            <tr>
+                                <td>7:00 PM</td>
+                                <td>Meditation</td>
+                                <td>Closed</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 7: Gallery -->
+        <section class="gallery section">
+            <div class="container">
+                <h2 class="section-title text-center fade-up">Our Studio</h2>
+                <div class="masonry-gallery fade-up">
+                    <img src="https://images.unsplash.com/photo-1593811167562-9cef47bfc4d7?q=80&w=600&auto=format&fit=crop" alt="Yoga Studio" class="gallery-img">
+                    <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=600&auto=format&fit=crop" alt="Meditation" class="gallery-img">
+                    <img src="https://images.unsplash.com/photo-1603988363607-e1e4a66962c6?q=80&w=600&auto=format&fit=crop" alt="Group Classes" class="gallery-img">
+                    <img src="https://images.unsplash.com/photo-1552286450-4a669f880062?q=80&w=600&auto=format&fit=crop" alt="Sunrise Yoga" class="gallery-img">
+                    <img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?q=80&w=600&auto=format&fit=crop" alt="Nature Yoga" class="gallery-img">
+                    <img src="https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?q=80&w=600&auto=format&fit=crop" alt="Instructor" class="gallery-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox -->
+        <div id="lightbox" class="lightbox">
+            <span class="close-lightbox">&times;</span>
+            <img class="lightbox-content" id="lightbox-img" src="" alt="Lightbox Image">
+        </div>
+
+        <!-- Section 8: Testimonials -->
+        <section class="testimonials section bg-sage text-white">
+            <div class="container">
+                <h2 class="section-title text-center fade-up text-white">Student Success Stories</h2>
+                <div class="testimonial-slider fade-up">
+                    <div class="slide active">
+                        <div class="stars">★★★★★</div>
+                        <p class="quote">"Joining Shanj Yoga transformed my lifestyle completely. The environment is so serene and welcoming."</p>
+                        <h4 class="author">- Priya S.</h4>
+                    </div>
+                    <div class="slide">
+                        <div class="stars">★★★★★</div>
+                        <p class="quote">"The instructors are patient, knowledgeable, and inspiring. Highly recommended for beginners!"</p>
+                        <h4 class="author">- Rahul M.</h4>
+                    </div>
+                    <div class="slide">
+                        <div class="stars">★★★★★</div>
+                        <p class="quote">"I feel healthier, happier, and more focused every day. Shanj Yoga is a true gem in the city."</p>
+                        <h4 class="author">- Anjali K.</h4>
+                    </div>
+                    
+                    <div class="slider-nav">
+                        <button class="prev-slide" aria-label="Previous Testimonial"><i data-lucide="chevron-left"></i></button>
+                        <div class="dots"></div>
+                        <button class="next-slide" aria-label="Next Testimonial"><i data-lucide="chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 9: Pricing -->
+        <section id="pricing" class="pricing section">
+            <div class="container">
+                <h2 class="section-title text-center fade-up">Membership Plans</h2>
+                <div class="pricing-grid">
+                    <div class="price-card fade-up">
+                        <h3>Starter</h3>
+                        <div class="price">₹999<span>/month</span></div>
+                        <ul class="price-features">
+                            <li><i data-lucide="check"></i> Unlimited Classes</li>
+                            <li><i data-lucide="check"></i> Weekend Sessions</li>
+                            <li class="disabled"><i data-lucide="x"></i> Meditation</li>
+                            <li class="disabled"><i data-lucide="x"></i> Personal Guidance</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline btn-full">Choose Plan</a>
+                    </div>
+                    <div class="price-card featured fade-up" style="transition-delay: 0.1s">
+                        <div class="badge">Most Popular</div>
+                        <h3>Professional</h3>
+                        <div class="price">₹1999<span>/month</span></div>
+                        <ul class="price-features">
+                            <li><i data-lucide="check"></i> Unlimited Yoga</li>
+                            <li><i data-lucide="check"></i> Meditation</li>
+                            <li><i data-lucide="check"></i> Personal Guidance</li>
+                            <li class="disabled"><i data-lucide="x"></i> Nutrition Guidance</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary btn-full btn-ripple">Choose Plan</a>
+                    </div>
+                    <div class="price-card fade-up" style="transition-delay: 0.2s">
+                        <h3>Premium</h3>
+                        <div class="price">₹3499<span>/month</span></div>
+                        <ul class="price-features">
+                            <li><i data-lucide="check"></i> Private Sessions</li>
+                            <li><i data-lucide="check"></i> Nutrition Guidance</li>
+                            <li><i data-lucide="check"></i> Priority Support</li>
+                            <li><i data-lucide="check"></i> Free Workshops</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline btn-full">Choose Plan</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 10: FAQ -->
+        <section class="faq section bg-soft">
+            <div class="container">
+                <h2 class="section-title text-center fade-up">Frequently Asked Questions</h2>
+                <div class="accordion fade-up">
+                    <div class="accordion-item">
+                        <button class="accordion-header">Who can join? <i data-lucide="chevron-down"></i></button>
+                        <div class="accordion-content">
+                            <p>Anyone can join! Our classes are designed for all age groups and fitness levels. We have specialized batches for kids, adults, and seniors.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">Do beginners need experience? <i data-lucide="chevron-down"></i></button>
+                        <div class="accordion-content">
+                            <p>Not at all. Beginners are more than welcome. We have specific Hatha Yoga classes tailored for those starting their yoga journey.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">What should I bring? <i data-lucide="chevron-down"></i></button>
+                        <div class="accordion-content">
+                            <p>Please bring comfortable workout clothing, a water bottle, and a towel. We provide premium yoga mats, though you are free to bring your own.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">Do you offer online classes? <i data-lucide="chevron-down"></i></button>
+                        <div class="accordion-content">
+                            <p>Yes, we offer hybrid sessions. You can join our live streamed classes from the comfort of your home.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">Can I book private sessions? <i data-lucide="chevron-down"></i></button>
+                        <div class="accordion-content">
+                            <p>Absolutely. Our Premium plan includes private sessions, and you can also book 1-on-1 sessions separately based on trainer availability.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 11: Contact -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <h2 class="section-title text-center fade-up">Get in Touch</h2>
+                <div class="contact-grid">
+                    <div class="contact-info fade-up">
+                        <div class="info-item">
+                            <div class="icon-circle"><i data-lucide="phone"></i></div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 98765 43210</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="icon-circle"><i data-lucide="mail"></i></div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>hello@shanjyoga.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="icon-circle"><i data-lucide="map-pin"></i></div>
+                            <div>
+                                <h4>Address</h4>
+                                <p>Ahmedabad, Gujarat</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="icon-circle"><i data-lucide="clock"></i></div>
+                            <div>
+                                <h4>Working Hours</h4>
+                                <p>Monday–Saturday<br>6 AM – 8 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-wrap glass-card fade-up">
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" required placeholder="Your full name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" required placeholder="Your email address">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" required placeholder="Your phone number">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" rows="4" required placeholder="How can we help you?"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full btn-ripple">Book Your Free Trial</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- Map Placeholder -->
+                <div class="map-container fade-up">
+                    <div class="map-placeholder">
+                        <i data-lucide="map"></i>
+                        <p>Google Maps Integration Here</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo text-white">Shanj Yoga</a>
+                <p>Elevate your mind, body, and spirit in our modern wellness sanctuary.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#classes">Classes</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+                    <a href="#" aria-label="YouTube"><i data-lucide="youtube"></i></a>
+                    <a href="#" aria-label="WhatsApp"><i data-lucide="message-circle"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Shanj Yoga. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
